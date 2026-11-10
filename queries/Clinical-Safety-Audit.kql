@@ -1,0 +1,6 @@
+// DCB0129 / DCB0160 Clinical Refusal Boundary Audit Query
+ClinicalSafetyHazardAudit_CL
+| where TimeGenerated > ago(7d)
+| where SafeToStage_b == false
+| summarize VetoCount = count() by Decision_s, HazardCode_s, TargetWard_s
+| order by VetoCount desc

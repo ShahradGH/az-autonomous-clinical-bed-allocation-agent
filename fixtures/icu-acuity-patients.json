@@ -1,0 +1,16 @@
+[
+  {
+    "encounterId": "ENC-901",
+    "news2Score": 7,
+    "requiresVentilation": true,
+    "targetWardNurseRatio": 0.25,
+    "expectedOutcome": "CLINICAL_SAFETY_VETO"
+  },
+  {
+    "encounterId": "ENC-904",
+    "news2Score": 2,
+    "requiresVentilation": false,
+    "targetWardNurseRatio": 0.5,
+    "expectedOutcome": "STAGE_FOR_CLINICIAN_REVIEW"
+  }
+]

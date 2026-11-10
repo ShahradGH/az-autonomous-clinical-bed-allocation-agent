@@ -1,0 +1,3 @@
+HazardId,Description,InitialSeverity,ControlMeasure,ResidualRisk
+HAZ-01,Premature ICU discharge proposed during A&E surge,Catastrophic (5),Deterministic NEWS2 >= 5 & nurse ratio hard refusal gate,Acceptable (1)
+HAZ-02,Missing lab results treated as normal baseline,Major (4),Fail-closed null-value schema check on HL7 FHIR Observation,Acceptable (1)
